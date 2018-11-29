@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<baseball2-gradle>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.example.baseball2gradle.DemoApplication",
+      "projectName": "baseball2-gradle",
+      "args": ""
+    }
+  ]
+}
