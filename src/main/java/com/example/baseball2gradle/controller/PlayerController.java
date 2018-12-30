@@ -65,7 +65,7 @@ public class PlayerController {
     @PutMapping("{id}")
     public String update(@PathVariable Long id, @Valid @ModelAttribute Player player, BindingResult bindingResult) {
         if (bindingResult.hasErrors())
-            return "users/edit";
+            return "players/edit";
         player.setId(id);
         playerService.save(player);
         return "redirect:/players";
